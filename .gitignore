@@ -1,0 +1,47 @@
+# Private path configuration
+config/paths.json
+
+# Data, derived caches, and generated figures are intentionally excluded
+data/
+cache/
+outputs/
+figures/
+*.nc
+*.nc4
+*.csv
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.zarr/
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+*.docx
+
+# Python and notebook residue
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Logs, local environments, and editor files
+*.log
+.env
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Backup and temporary files
+*.bak
+*.backup
+*.tmp
+*~

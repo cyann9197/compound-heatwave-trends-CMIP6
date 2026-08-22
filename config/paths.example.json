@@ -1,0 +1,6 @@
+{
+  "data_root": "/path/to/analysis-ready-data",
+  "cache_root": "/path/to/reusable-cache",
+  "output_root": "/path/to/generated-figures",
+  "n_jobs": 8
+}
